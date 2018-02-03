@@ -53,6 +53,7 @@ public class SearchEmployeeActivity extends AppCompatActivity {
         btnUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // This method is for updating employee info
                 int id = employee.empId;
                 String name = edtEmployeeNameSearch.getText().toString().trim();
                 String phone = edtEmployeePhone.getText().toString().trim();
